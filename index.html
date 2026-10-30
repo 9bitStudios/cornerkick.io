@@ -1,36 +1,46 @@
 
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cornerkicK.io</title>
+    <meta name="description" content="cornerkicK.io: web and application development, AI engineering, AI consulting and forward deployed engineering.">
     <link rel="stylesheet" type="text/css" href="dist/css/baseline.css" />
     <script src="dist/js/baseline.js" type="text/javascript"></script>
     <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 
     <style type="text/css">
-        /* Styles for demo... */
+        :root {
+            --surface: #fdfdfc;
+            --focus: #003366;
+        }
 
         .container {
-            background: #fff;
+            background: var(--surface);
         }
 
         .row .row {
             margin-bottom: 20px;
         }
-        .grid {
-            text-align: center;
+
+        h1, h2 {
+            text-wrap: balance;
         }
-        .grid .row {
-           margin-bottom: 0; 
+
+        /* Keep the original visual sizes while the heading levels step h1 > h2 > h3 */
+        .projects h2 {
+            font-size: 27px;
         }
-        .grid .column,
-        .grid .columns {
-            padding-top: 5px;
-            padding-bottom: 5px;
-            background: #fcfcfc;
-            border: 1px solid #eee;
+        .projects h3 {
+            font-size: 23px;
+        }
+
+        /* baseline.css removes the link outline; put a keyboard focus ring back */
+        a:focus-visible {
+            outline: 2px solid var(--focus);
+            outline-offset: 2px;
         }
 
     </style>
@@ -42,19 +52,25 @@
 <div class="container">
     <div class="row">
         <div class="twelve columns">
-            <h1>cornerkicK.io</h1>
-            <p>Web & Application Development :: AI Engineering :: AI Consulting :: Forward Deployed Engineering</p>
-            
-            <h3>Projects</h3>
-            <p>Below is a collection of projects currently being worked on...</p>
+            <header>
+                <h1>cornerkicK.io</h1>
+                <p>Web &amp; Application Development :: AI Engineering :: AI Consulting :: Forward Deployed Engineering</p>
+            </header>
 
-            <h4>Expense Tracker AI</h4>
-            <p>A demo expense tracker AI application developed with Claude Code, React, TypeScript, Next.js, Tailwind CSS, and App Router while taking a course at Vanderbilt University via Coursera. <a href="https://github.com/ianchursky/expense-tracker-ai">See repository</a></p>
+            <section class="projects">
+                <h2>Projects</h2>
+                <p>Below is a collection of projects currently being worked on…</p>
 
-            <p>
-                <img src="dist/images/expense-tracker-1.png" />
-                <img src="dist/images/Ian_Chursky_Claude_Code_Sofware_Engineering_With_Generative_AI_Agents_Vanderbilt_University.jpg" />
-            </p>
+                <article>
+                    <h3>Expense Tracker AI</h3>
+                    <p>A demo expense tracker AI application developed with Claude Code, React, TypeScript, Next.js, Tailwind CSS, and App Router while taking a course at Vanderbilt University via Coursera. <a href="https://github.com/ianchursky/expense-tracker-ai">See repository</a></p>
+
+                    <p>
+                        <img src="dist/images/expense-tracker-1.png" alt="Claude Code session building the Expense Tracker AI app, with the dashboard open in the browser pane" />
+                        <img src="dist/images/Ian_Chursky_Claude_Code_Sofware_Engineering_With_Generative_AI_Agents_Vanderbilt_University.jpg" alt="Coursera course certificate: Claude Code: Software Engineering with Generative AI Agents, Vanderbilt University" />
+                    </p>
+                </article>
+            </section>
         </div>
     </div>
 </div>
