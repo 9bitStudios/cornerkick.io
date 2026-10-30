@@ -1,78 +1,120 @@
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cornerkicK.io</title>
     <meta name="description" content="cornerkicK.io: web and application development, AI engineering, AI consulting and forward deployed engineering.">
-    <link rel="stylesheet" type="text/css" href="dist/css/baseline.css" />
-    <script src="dist/js/baseline.js" type="text/javascript"></script>
-    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-
-    <style type="text/css">
-        :root {
-            --surface: #fdfdfc;
-            --focus: #003366;
-        }
-
-        .container {
-            background: var(--surface);
-        }
-
-        .row .row {
-            margin-bottom: 20px;
-        }
-
-        h1, h2 {
-            text-wrap: balance;
-        }
-
-        /* Keep the original visual sizes while the heading levels step h1 > h2 > h3 */
-        .projects h2 {
-            font-size: 27px;
-        }
-        .projects h3 {
-            font-size: 23px;
-        }
-
-        /* baseline.css removes the link outline; put a keyboard focus ring back */
-        a:focus-visible {
-            outline: 2px solid var(--focus);
-            outline-offset: 2px;
-        }
-
-    </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/site.css">
 </head>
 
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <header>
-                <h1>cornerkicK.io</h1>
-                <p>Web &amp; Application Development :: AI Engineering :: AI Consulting :: Forward Deployed Engineering</p>
-            </header>
+<header class="nav">
+    <nav class="container" aria-label="Main">
+        <div class="nav__bar">
+            <a class="wordmark" href="#main">cornerkicK.io</a>
+            <ul class="nav__links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-            <section class="projects">
-                <h2>Projects</h2>
-                <p>Below is a collection of projects currently being worked on…</p>
+<main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+            <div class="hero__inner">
+                <h1 id="hero-title">cornerkicK.io</h1>
+                <p class="lead">Web &amp; Application Development :: AI Engineering :: AI Consulting :: Forward Deployed Engineering</p>
+                <div class="actions">
+                    <a class="key key--primary" href="#projects">See the projects</a>
+                    <a class="key" href="#contact">Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <article>
-                    <h3>Expense Tracker AI</h3>
+    <section class="section section--first" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+            <div class="head">
+                <h2 id="projects-title">Projects</h2>
+                <p class="lead">Below is a collection of projects currently being worked on…</p>
+            </div>
+
+            <figure class="showcase">
+                <div class="showcase__frame">
+                    <img src="dist/images/expense-tracker-1.png" width="1909" height="1080" loading="lazy"
+                         alt="Claude Code session building the Expense Tracker AI app, with the dashboard open in the browser pane">
+                </div>
+                <figcaption class="caption">Expense Tracker AI, built in a Claude Code session.</figcaption>
+            </figure>
+
+            <article class="project" aria-labelledby="project-title">
+                <div class="project__text">
+                    <h3 id="project-title">Expense Tracker AI</h3>
                     <p>A demo expense tracker AI application developed with Claude Code, React, TypeScript, Next.js, Tailwind CSS, and App Router while taking a course at Vanderbilt University via Coursera. <a href="https://github.com/ianchursky/expense-tracker-ai">See repository</a></p>
+                </div>
+                <table class="stack">
+                    <caption class="visually-hidden">What Expense Tracker AI is built with</caption>
+                    <tbody>
+                        <tr class="is-lead"><th scope="row">Built with</th><td>Claude Code</td></tr>
+                        <tr><th scope="row">Framework</th><td>Next.js, App Router</td></tr>
+                        <tr><th scope="row">Interface</th><td>React, Tailwind CSS</td></tr>
+                        <tr><th scope="row">Language</th><td>TypeScript</td></tr>
+                        <tr><th scope="row">Repository</th><td class="code">ianchursky/expense-tracker-ai</td></tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+    </section>
 
-                    <p>
-                        <img src="dist/images/expense-tracker-1.png" alt="Claude Code session building the Expense Tracker AI app, with the dashboard open in the browser pane" />
-                        <img src="dist/images/Ian_Chursky_Claude_Code_Sofware_Engineering_With_Generative_AI_Agents_Vanderbilt_University.jpg" alt="Coursera course certificate: Claude Code: Software Engineering with Generative AI Agents, Vanderbilt University" />
-                    </p>
-                </article>
-            </section>
+    <section class="section cert" aria-labelledby="cert-title">
+        <div class="container cert__grid">
+            <figure class="certificate">
+                <div class="certificate__frame">
+                    <img src="dist/images/Ian_Chursky_Claude_Code_Sofware_Engineering_With_Generative_AI_Agents_Vanderbilt_University.jpg" width="1650" height="1275" loading="lazy"
+                         alt="Coursera course certificate: Claude Code: Software Engineering with Generative AI Agents, Vanderbilt University">
+                </div>
+            </figure>
+            <div class="cert__text">
+                <h2 id="cert-title">The course</h2>
+                <dl class="facts">
+                    <div><dt>Course</dt><dd>Claude Code: Software Engineering with Generative AI Agents</dd></div>
+                    <div><dt>From</dt><dd>Vanderbilt University, via Coursera</dd></div>
+                    <div><dt>Completed</dt><dd><time class="machine" datetime="2026-10-29">2026-10-29</time></dd></div>
+                    <div><dt>Verify</dt><dd><a class="machine" href="https://coursera.org/verify/FFGSZT22J3KC">FFGSZT22J3KC</a></dd></div>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact__grid">
+            <h2 id="contact-title">Get in touch</h2>
+            <dl class="contact__list">
+                <div><dt>Email</dt><dd><a href="mailto:ianchursky@outlook.com">ianchursky@outlook.com</a></dd></div>
+            </dl>
+        </div>
+    </section>
+</main>
+
+<footer class="mast">
+    <div class="container">
+        <span class="mast__name">cornerkicK.io</span>
+        <div class="mast__row">
+            <ul class="mast__links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p>&copy; 2026 cornerkicK.io</p>
         </div>
     </div>
-</div>
+</footer>
 </body>
 </html>
