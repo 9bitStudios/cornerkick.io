@@ -1,0 +1,85 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "page",
+  "shape": "Feature Stack",
+  "theme": "vantage",
+  "axes": "dark/grotesk-sans/chromatic-lime",
+  "hero": "Ledge",
+  "nav": "banner over a bar",
+  "footer": "index columns",
+  "imagery": "product capture as a point cloud, certificate",
+  "photos": [],
+  "entry": "index.html",
+  "fingerprint": "dark/grotesk/ledge/split-table-split-band",
+  "sections": [
+   "hero",
+   "split",
+   "table",
+   "split",
+   "band",
+   "footer"
+  ],
+  "signature": "the Expense Tracker AI build session sampled into a live point cloud",
+  "waived": [
+   "77"
+  ],
+  "prompt": "redesign cornerkick.io vantage style",
+  "date": "2026-10-31"
+ },
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "page",
+  "shape": "Feature Stack",
+  "theme": "cobalt",
+  "axes": "light/grotesk-sans/cool",
+  "hero": "Banner",
+  "nav": "floating bar",
+  "footer": "mast",
+  "imagery": "product capture, certificate",
+  "photos": [],
+  "entry": "index.html",
+  "fingerprint": "light/grotesk/banner/showcase-split-split-band",
+  "sections": [
+   "hero",
+   "showcase",
+   "split-table",
+   "split",
+   "band",
+   "footer"
+  ],
+  "signature": "the real Claude Code session across twelve columns under the name",
+  "waived": [],
+  "prompt": "redesign cornerkick.io",
+  "date": "2026-10-30"
+ },
+ {
+  "shape": "Index-First",
+  "theme": "console",
+  "axes": "dark/grotesk-sans/chromatic-amber",
+  "hero": "Stage",
+  "nav": "masthead",
+  "footer": "colophon block",
+  "imagery": "product capture, certificate",
+  "photos": [],
+  "entry": "next/index.html",
+  "fingerprint": "dark/grotesk/stage/panels-split-rows-band",
+  "sections": [
+   "hero",
+   "panels",
+   "split",
+   "rows",
+   "band",
+   "footer"
+  ],
+  "signature": "the real Claude Code session building Expense Tracker AI, bled off the hero edge",
+  "waived": [
+   "77"
+  ],
+  "prompt": "Create a new page for cornerkick.io in a better, more modern style",
+  "date": "2026-10-30",
+  "mode": "build"
+ }
+]
