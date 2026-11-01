@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/15u_sn9mj2hxw.css","style"]
-:HL["/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/projects/expense-tracker-ai/_next/static/chunks/15u_sn9mj2hxw.css","style"]
+:HL["/projects/expense-tracker-ai/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"j07RGo6B2mCmsD9evLu2j","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"28U-JtwitORuX3qaR-REF","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

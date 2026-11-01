@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/0nw_rs109mfhg.js"
-3:"/_next/static/chunks/3ga4axy4gd-l_.js"
-4:"/_next/static/chunks/2eu_rfe9uiiee.js"
+2:"/projects/expense-tracker-ai/_next/static/chunks/0nw_rs109mfhg.js"
+3:"/projects/expense-tracker-ai/_next/static/chunks/3ga4axy4gd-l_.js"
+4:"/projects/expense-tracker-ai/_next/static/chunks/367dp5utbtta0.js"
 5:I[64592,["$2","$3","$4"],"ToastProvider"]
 6:I[3605,["$2","$3","$4"],"ExpenseProvider"]
 7:"ExpenseDialogProvider"
@@ -12,13 +12,13 @@ b:I[47746,["$2","$3","$4"],"StorageWarning"]
 c:"SampleDataNotice"
 d:I[99980,["$2","$3","$4"],"$c"]
 e:I[39756,["$2","$3","$4"],"default"]
-f:"/_next/static/chunks/0zuep0lm-eo2v.js"
+f:"/projects/expense-tracker-ai/_next/static/chunks/0zuep0lm-eo2v.js"
 10:I[8821,["$2","$3","$4","$f"],"default"]
 11:I[37457,["$2","$3","$4"],"default"]
 12:I[22016,["$2","$3","$4"],""]
 13:I[19824,["$2","$3","$4"],"StorageStatus"]
 14:I[47820,["$2","$3","$4"],"JobTray"]
-18:"/_next/static/chunks/33rxezx07_6nn.js"
+18:"/projects/expense-tracker-ai/_next/static/chunks/33rxezx07_6nn.js"
 19:I[3288,["$2","$3","$4","$18"],"DashboardView"]
 1a:I[97367,["$2","$3","$4"],"OutletBoundary"]
 1b:"$Sreact.suspense"
@@ -26,10 +26,10 @@ f:"/_next/static/chunks/0zuep0lm-eo2v.js"
 1f:I[97367,["$2","$3","$4"],"$1e"]
 20:"MetadataBoundary"
 21:I[97367,["$2","$3","$4"],"$20"]
-:HL["/_next/static/chunks/15u_sn9mj2hxw.css","style"]
+:HL["/projects/expense-tracker-ai/_next/static/chunks/15u_sn9mj2hxw.css","style"]
 16:X
-17:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L19",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/33rxezx07_6nn.js","async":true}]],["$","$L1a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]]}],"p":"$@1d","v":null,"s":"$16"}}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/15u_sn9mj2hxw.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0nw_rs109mfhg.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/3ga4axy4gd-l_.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/2eu_rfe9uiiee.js","async":true}]],["$","html",null,{"lang":"en","className":"_0bjUvq_variable","children":["$","body",null,{"className":"min-h-screen bg-slate-50 font-sans text-slate-900 antialiased","children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$La",null,{}],["$","div",null,{"className":"lg:pl-60","children":["$","main",null,{"className":"mx-auto max-w-6xl px-4 pb-28 pt-6 sm:px-6 lg:px-10 lg:py-8","children":[["$","$Lb",null,{}],["$","$Ld",null,{}],["$","$Le",null,{"parallelRouterKey":"children","error":"$10","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/0zuep0lm-eo2v.js","async":true}]],"template":["$","$L11",null,{}],"notFound":[["$","div",null,{"className":"rounded-xl border border-slate-200 bg-white mx-auto max-w-md p-8 text-center","children":[["$","p",null,{"className":"text-sm font-semibold text-brand-600","children":"404"}],["$","h1",null,{"className":"mt-2 text-lg font-semibold text-slate-900","children":"Page not found"}],["$","p",null,{"className":"mt-1 text-sm text-slate-500","children":"The page you're looking for doesn't exist."}],["$","$L12",null,{"href":"/","className":"mt-6 inline-flex rounded-lg bg-brand-600 px-3.5 py-2 text-sm font-semibold text-white hover:bg-brand-700","children":"Back to dashboard"}]]}],[]]}],["$","div",null,{"className":"mt-8 lg:hidden","children":["$","$L13",null,{"variant":"inline"}]}]]}]}],["$","$L14",null,{}]]}]}]}]}]}]}]]}],"p":"$@15","v":null,"s":"$16"},"c":"$Q17"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#15803d"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Expense Tracker"}],["$","meta","1",{"name":"description","content":"Track, filter, and analyze your personal expenses."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@22","v":null,"s":"$16"}},"a":"$@23","u":"$@24","b":"j07RGo6B2mCmsD9evLu2j"}
+17:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L19",null,{}],[["$","script","script-0",{"src":"/projects/expense-tracker-ai/_next/static/chunks/33rxezx07_6nn.js","async":true}]],["$","$L1a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]]}],"p":"$@1d","v":null,"s":"$16"}}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/projects/expense-tracker-ai/_next/static/chunks/15u_sn9mj2hxw.css","precedence":"next"}],["$","script","script-0",{"src":"/projects/expense-tracker-ai/_next/static/chunks/0nw_rs109mfhg.js","async":true}],["$","script","script-1",{"src":"/projects/expense-tracker-ai/_next/static/chunks/3ga4axy4gd-l_.js","async":true}],["$","script","script-2",{"src":"/projects/expense-tracker-ai/_next/static/chunks/367dp5utbtta0.js","async":true}]],["$","html",null,{"lang":"en","className":"_0bjUvq_variable","children":["$","body",null,{"className":"min-h-screen bg-slate-50 font-sans text-slate-900 antialiased","children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"children":[["$","$La",null,{}],["$","div",null,{"className":"lg:pl-60","children":["$","main",null,{"className":"mx-auto max-w-6xl px-4 pb-28 pt-6 sm:px-6 lg:px-10 lg:py-8","children":[["$","$Lb",null,{}],["$","$Ld",null,{}],["$","$Le",null,{"parallelRouterKey":"children","error":"$10","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/projects/expense-tracker-ai/_next/static/chunks/0zuep0lm-eo2v.js","async":true}]],"template":["$","$L11",null,{}],"notFound":[["$","div",null,{"className":"rounded-xl border border-slate-200 bg-white mx-auto max-w-md p-8 text-center","children":[["$","p",null,{"className":"text-sm font-semibold text-brand-600","children":"404"}],["$","h1",null,{"className":"mt-2 text-lg font-semibold text-slate-900","children":"Page not found"}],["$","p",null,{"className":"mt-1 text-sm text-slate-500","children":"The page you're looking for doesn't exist."}],["$","$L12",null,{"href":"/","className":"mt-6 inline-flex rounded-lg bg-brand-600 px-3.5 py-2 text-sm font-semibold text-white hover:bg-brand-700","children":"Back to dashboard"}]]}],[]]}],["$","div",null,{"className":"mt-8 lg:hidden","children":["$","$L13",null,{"variant":"inline"}]}]]}]}],["$","$L14",null,{}]]}]}]}]}]}]}]]}],"p":"$@15","v":null,"s":"$16"},"c":"$Q17"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#15803d"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Expense Tracker"}],["$","meta","1",{"name":"description","content":"Track, filter, and analyze your personal expenses."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@22","v":null,"s":"$16"}},"a":"$@23","u":"$@24","b":"28U-JtwitORuX3qaR-REF"}
 1c:null
 16:300
 24:true
