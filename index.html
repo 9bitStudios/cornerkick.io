@@ -24,7 +24,8 @@
     <nav class="bar" aria-label="Main">
         <div class="container">
             <a class="wordmark" href="#main">cornerkicK.io</a>
-            <ul class="bar__links">
+            <button class="bar__toggle" type="button" aria-expanded="false" aria-controls="bar-links" aria-label="Menu"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+            <ul class="bar__links" id="bar-links">
                 <li><a href="#projects">Recent Projects</a></li>
                 <li><a href="https://ianchursky.pixieset.com/portfolio" target="_blank">All Projects</a></li>
                 <li><a href="#education">Education</a></li>
@@ -163,6 +164,20 @@
     </div>
 </footer>
 
+<script>
+(function () {
+    var bar = document.querySelector('.bar'), btn = bar.querySelector('.bar__toggle');
+    function set(open) {
+        btn.setAttribute('aria-expanded', open);
+        btn.firstElementChild.className = open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+    }
+    bar.classList.add('has-toggle'); // links stay visible without script
+    btn.addEventListener('click', function () { set(btn.getAttribute('aria-expanded') !== 'true'); });
+    bar.addEventListener('click', function (e) { if (e.target.closest('.bar__links a')) set(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') { set(false); btn.focus(); } });
+    document.addEventListener('click', function (e) { if (!bar.contains(e.target)) set(false); });
+})();
+</script>
 <script src="dist/js/cloud-data.js"></script>
 <script src="dist/js/cloud.js"></script>
 </body>
