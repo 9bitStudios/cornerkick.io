@@ -81,7 +81,7 @@ html:not(.has-cloud) [data-loop-toggle] { display: none; }
 .capture img { width: 100%; aspect-ratio: 1909 / 1080; border-radius: var(--radius-card); }
 .capture figcaption { margin-top: var(--space-sm); font-size: var(--text-sm); color: var(--color-muted); }
 .project__text { display: grid; gap: var(--space-lg); }
-.project__text h3 { font-size: var(--text-section); font-weight: var(--display-weight); }
+.project__text h3 { font-weight: var(--display-weight); color:var(--point-mid); }
 .project__text p { color: var(--color-ink-2); }
 
 /* Stack as a log */
