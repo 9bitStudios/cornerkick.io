@@ -102,6 +102,11 @@ html:not(.has-cloud) [data-loop-toggle] { display: none; }
 .facts dd { margin: 0; color: var(--color-ink); }
 .certificate { margin: 0; padding: var(--space-md); }
 .certificate img { width: 100%; aspect-ratio: 1650 / 1275; border-radius: var(--radius-card); }
+/* Education: the two entries side by side, each with its facts above its certificate */
+.education__grids { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2xl) var(--gap-columns); align-items: start; }
+.education__grids > .head { grid-column: 1 / -1; margin-bottom: 0; }
+.education__grids > .course__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
+@media (max-width: 60rem) { .education__grids { grid-template-columns: minmax(0, 1fr); } }
 
 /* Contact */
 .contact { padding-block: var(--section-gap-l) var(--section-gap); }
