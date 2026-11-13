@@ -110,7 +110,7 @@ html:not(.has-cloud) [data-loop-toggle] { display: none; }
 
 /* Contact */
 .contact { padding-block: var(--section-gap-l) var(--section-gap); }
-#projects, #education { padding-block: calc(var(--section-gap) * .75); }
+#projects, #education, #profile, #experience, #skills, #interests { padding-block: calc(var(--section-gap) * .75); }
 #contact { padding-block: calc(var(--section-gap-l) * .75) calc(var(--section-gap) * .75); }
 .contact__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--gap-columns); align-items: end; }
 .contact__links { display: flex; flex-wrap: wrap; gap: var(--space-lg); margin: 0; padding: 0; list-style: none; font-size: clamp(1.25rem, 5vw + 0.25rem, 3.75rem); line-height: 1; }
@@ -160,7 +160,7 @@ html:not(.has-cloud) [data-loop-toggle] { display: none; }
 }
 
 /* About page: the intro without the cloud, the work log, columns of facts and favorites */
-.intro { padding-block: var(--space-3xl) var(--space-2xl); }
+.intro { padding-block: calc(var(--space-3xl) * .75) calc(var(--space-2xl) * .75); }
 .intro h1 { max-width: none; font-size: clamp(3.25rem, 7vw + 0.5rem, 7.5rem); }
 .prose { display: grid; gap: var(--space-lg); }
 .head:has(> .prose) { align-items: start; margin-bottom: 0; }
