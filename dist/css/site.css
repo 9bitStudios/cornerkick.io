@@ -75,7 +75,11 @@ html:not(.has-cloud) [data-loop-toggle] { display: none; }
 .head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--gap-columns); align-items: end; margin-bottom: var(--space-2xl); }
 .head .lead { color: var(--color-ink-2); }
 
+/* Profile */
+.profile { background: var(--color-paper-2); }
+
 /* Project: the capture in ticks beside the text */
+#projects { background: var(--color-paper-2); }
 .project { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--space-3xl); align-items: start; }
 .capture { margin: 0; padding: var(--space-md); }
 .capture img { width: 100%; border-radius: var(--radius-card); }
